@@ -1,3 +1,38 @@
 :root{
   padding:20px 40px;
 }
+.popupMsg{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  border:3px dashed black;
+  padding:30px 60px;
+  font:italic normal bold 14px/1.2 arial;
+}
+.popupMsg button{
+  background-color:white;
+  padding:5px 30px;
+  font : italic normal bold 16px/1.2 'sens-serif';
+  border:2px solid black;
+  transition: all 0.1s;
+}
+.popupMsg button:hover{
+  background-color: black;
+  color:white;
+}
+.opacityBg{
+  background-color:black;
+  width:100vw;
+  height:100vh;
+  opacity:0.5;
+  position: absolute;
+}
+
+@media only screen and (max-width:600px){
+  .popupMsg{
+    width:60vw;
+    z-index: 1;
+  }
+}

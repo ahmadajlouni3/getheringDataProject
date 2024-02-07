@@ -1,0 +1,64 @@
+
+
+
+ h2{
+    font:italic small-caps bold 14px/1.2 arial;
+}
+
+ div img {
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+ div.imgDiv {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.manage_buttons{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+}
+.manage_buttons button{
+    width:120px;
+    padding:5px 15px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+.manage_buttons button:hover{
+    opacity: 0.8;
+}
+
+.manage_buttons .del{
+    background-color: tomato;
+    color: white;
+}
+
+.manage_buttons .info{
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+
+
+
+@media only screen and (max-width:600px ){
+     .userInfo{
+        text-align: left;
+    }
+     .userInfo p{
+        padding-left:10px;
+    }
+    .manage_buttons{
+        margin-left:auto;
+        flex-flow:column nowrap;
+        justify-content: center;
+        align-items:center;
+    }
+}
