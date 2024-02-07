@@ -1,5 +1,6 @@
 {
   "name": "website",
+  "source" : "public/index.html",
   "homepage": "public/index.html",
   "version": "0.1.0",
   "private": true,
