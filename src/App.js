@@ -32,15 +32,13 @@ function App() {
     <div className='opacityBg'></div>
     <div className="popupMsg">
       <h2>Note : </h2>
-      <p>
-        this program can do : <br/>
-        <ul>
+        this program can do : 
+        <ol>
           <li>show information about client</li>
           <li>delete any client you want</li>
           <li>know more information about client</li>
-        </ul>
+        </ol>
         <button onClick={display}>Ok</button>
-      </p>
     </div>
       <button onClick={getData} style={{
       margin:'0' ,

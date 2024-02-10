@@ -22,8 +22,8 @@ const CardList = ({dataList}) => {
     }
     //######################################################
     
-    return get.id ? 
-    <SingleComp choice={choice} data={get}/> 
+    return get.id && choice ? 
+    <SingleComp choice={choice} data={get} setChoice={setChoice}/> 
     :<MultiComp choice={choice} data={data} getValues={getValues}/> 
 }
 
