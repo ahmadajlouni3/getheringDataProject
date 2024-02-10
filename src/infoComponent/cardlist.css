@@ -27,6 +27,6 @@
         grid-template-columns: 1fr;
     }
     .card{
-        flex-flow:row nowrap;
+        flex-flow:column nowrap;
     }
 }

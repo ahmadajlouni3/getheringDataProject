@@ -48,7 +48,7 @@
 
 
 
-@media only screen and (max-width:600px ){
+/* @media only screen and (max-width:600px ){
      .userInfo{
         text-align: left;
     }
@@ -57,8 +57,8 @@
     }
     .manage_buttons{
         margin-left:auto;
-        flex-flow:column nowrap;
+        flex-flow:row nowrap;
         justify-content: center;
         align-items:center;
     }
-}
+} */
